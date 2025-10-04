@@ -1,0 +1,79 @@
+.dashboard-container {
+    padding: 30px;
+    background-color: #f8f9fc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f2937;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-summary {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dashboard-chart {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-chart h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #1f2937;
+  }
+  
+  .recent-expenses {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-expenses h2 {
+    margin-bottom: 15px;
+    color: #1f2937;
+  }
+  
+  .recent-expenses table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .recent-expenses th,
+  .recent-expenses td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .recent-expenses th {
+    background-color: #f3f4f6;
+    color: #374151;
+    font-weight: 600;
+  }
+  
+  .recent-expenses tr:hover {
+    background-color: #f9fafb;
+  }
+  
